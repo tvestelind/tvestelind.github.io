@@ -6,9 +6,9 @@ title: Tomas Vestelind's resume
 Software Engineer
 
 <div id="webaddress">
-<i class="fa fa-envelope"><a href="mailto:tomas.vestelind@gmail.com">tomas.vestelind@gmail.com</a>
+<i class="fa fa-envelope"/><a href="mailto:tomas.vestelind@gmail.com">tomas.vestelind@gmail.com</a>
 |
-<i class="fa fa-github"></i> <a href="http://github.com/tvestelind">tvestelind</a>
+<i class="fa fa-github"/> <a href="http://github.com/tvestelind">tvestelind</a>
 </div>
 
 
