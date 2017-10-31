@@ -1,91 +1,61 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Tomas Vestelind's resume
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Tomas Vestelind
+Software Engineer.
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="mailto:tomas.vestelind@gmail.com">tomas.vestelind@gmail.com</a>
+|
+<i class="fa fa-github"></i> <a href="http://github.com/tvestelind">tvestelind</a>
 </div>
 
 
 ## Currently
 
-Standing on the shoulders of giants
+Working as a Senior Software Developer/Architect at [OP5](http://www.op5.com) in Gothenburg, Sweden. Here I develop a product called OP5 Monitor which consists of many different open- and closed source components in several different languages, the majority of them in C, PHP and Python.
 
-### Specialized in
+## Employment
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
-
-
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
+`2016-`
+___OP5 AB, Gothenburg___ Senior Software Engineer/Architect
+`2015-2016`
+___Stormshield, Lyon___ Software Engineer
+`2013-2015`
+___T. Vestelind Consulting AB, Gothenburg___ Software Engineer working for Ericsson AB
+`2012-2013`
+___Rt-labs AB, Gothenburg___ Software Engineer working for AB Volvo
+`2011-2012`
+___Dfind AB, Gothenburg___ Software Tester working for Ericsson AB
+`2010-2011`
+___Amadeus, Nice___ Master's Thesis
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`2008-2011`
+___Chalmers University of Technology, Gothenburg___ Master's Degree, Software Engineering and Technology
+`2005-2008`
+___Chalmers University of Technology, Gothenburg___ Bachelor's Degree, Information Technology
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+## Technical skills
 
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
-
-
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
+* Python
+* C
+* Haskell
+* Erlang
+* Java
+* PHP
+* Git
+* Systemd
+* CentOS/RHEL
+* Debian
+* \*nix
+* GNU Make
+* vim
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: November 2017 -->
 
 
