@@ -8,7 +8,9 @@ Software Engineer
 <div id="webaddress">
   <i class="fa fa-envelope"></i><a href="mailto:tomas.vestelind@gmail.com">tomas.vestelind@gmail.com</a>
 |
-  <i class="fa fa-github"></i><a href="http://github.com/tvestelind">tvestelind</a>
+  <i class="fa fa-github"></i><a href="http://github.com/tvestelind">Github</a>
+|
+  <i class="fa fa-github"></i><a href="https://www.linkedin.com/in/tomas-vestelind-790b1b57/">LinkedIn</a>
 </div>
 
 
@@ -16,7 +18,7 @@ Software Engineer
 
 Working as a Senior Software Developer/Architect at [OP5](http://www.op5.com) in Gothenburg, Sweden. We develop a product called OP5 Monitor which consists of many different open- and closed source components in several different languages, the majority of them in C, PHP and Python. 
 
-Unit testing is done using pytest (and similar) and integration/functional tests are written in Gherking and executed using behave/cucumber. Source control, review and continuous integration are done in git, Bitbucket and Buildbot/GoCD. Way of working is in agile using Scrum and we use Jira to manage our backlog, user stories and sprints.
+Unit testing is done using pytest (and similar) and integration/functional tests are written in Gherkin and executed using behave/cucumber with quite some docker usage. Source control, review and continuous integration are done in git, Bitbucket and Buildbot/GoCD. Way of working is in agile using Scrum and we use Jira to manage our backlog, user stories and sprints.
 
 ## Employment
 
@@ -63,19 +65,12 @@ __Chalmers University of Technology, Gothenburg__ Bachelor of Applied Sciences, 
 
 ## Technical skills
 
-* Python
-* C
-* Haskell
-* Erlang
-* Java
-* PHP
-* Git
-* Systemd
-* CentOS/RHEL
-* Debian
-* \*nix
-* GNU Make
-* vim
+* Python - tox, behave, pytest, prospector, setuptools
+* C - GNU Make, CMake, gcc, gdb
+* Haskell - cabal, stack, quickcheck, hspec
+* Erlang - dialyzer, OTP
+* PHP - phpunit
+* \*nix - CentOS/RHEL/Debian, bash/zsh, git, docker/docker-compose, systemd/sysvinit, vim
 
 <!-- ### Footer
 
