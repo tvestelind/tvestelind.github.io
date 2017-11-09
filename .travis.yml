@@ -1,8 +1,19 @@
+addons:
+  apt:
+    packages:
+      - wkhtmltopdf
+      - pandoc
+      - textlive-fonts-recommended
+      - textlive-latex-base
+script: pandoc index.md --css https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css -to html | wkhtmltopdf - tomas.vestelind.resume.pdf
+
 deploy:
   provider: releases
-  api_key: "GITHUB OAUTH TOKEN"
+  api_key:
+    secure: lRsH4bBNERUyGp2GpRwBMhsIiddrOiIQt67BBnu32djfJpXJ5t9sBLPyzjGOEdXLZI9UoV1C9qRwP7ysoz/Jl54TX9DS7ThsBUz5CwzcJEJWelC3gsQ4ws5QTf4lOyKGXhlAOzul3sz2Im5ZUU86oU3hyOBeZZYG1ABvWVv9cHspDQKilTvRmjcNPfV0f8m2RSwYXwARe151EVSOzSuZABlXMUJ5FJnDcbO1TG98PdSa+ctqj+Y5czewLN3QrnE+rbKfKqrNvJ1bkk8JJgyEajJLZ9DE53e080GwWqkhQV5lR79LtZOC/Ud1dDQ1K0upacYMHCb+a3CElyXeL80iWT8mM/Lx//+4fg5iypNLSH3gsQezaiRNjDF6w/FBqRD5e2xn9scSXSr594Oi5JwPnPYbfGEXKHxxcf2HvhUwgRxlPI9ATI43pLpqnKJ94ybx0QREKSG/SiWUPWEALpwIYBDUH7udfYVwnoxXu5yXL5FpWvA3mQDvbA05OG7vbvGr/z1mxJsGkOhQlpJd5bhqSmL0JhpAo5FWiXwkm/p1Yz83X2dbOQzXnr/B9gTNrcIvGjPReeXI4Jys8A1RXJb5gryx70oIkNhNHPS6t4WNMwQyUHJKb0Zyp7RWmCt9HQ5h7v7l3f/HB97yEMbX/9+QTVSbhzYd5xET0ywa2Au3uaI=
   file_glob: true
-  file: tomas.vestelind.resume.*.pdf
+  file: tomas.vestelind.resume.pdf
   skip_cleanup: true
   on:
+    repo: tvestelind/tvestelind.github.io
     tags: true
