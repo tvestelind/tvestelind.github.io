@@ -1,5 +1,6 @@
 ---
 layout: cv
+title: Tomas Vestelind's resume
 ---
 # Tomas Vestelind
 Software Engineer
@@ -14,64 +15,56 @@ Software Engineer
   <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/tomas-vestelind">tomas-vestelind</a>
 </div>
 
-
-## Currently
-
-Working as a Senior Software Developer/Architect at [OP5](http://www.op5.com) in Gothenburg, Sweden. We develop a product called OP5 Monitor which consists of many different open- and closed source components in several different languages, the majority of them in C, PHP and Python. 
-
-Unit testing is done using pytest (and similar) and integration/functional tests are written in Gherkin and executed using behave/cucumber with quite some docker usage. Source control, review and continuous integration are done in git, Bitbucket and Buildbot/GoCD. Way of working is in agile using Scrum and we use Jira to manage our backlog, user stories and sprints.
-
-## Employment
+## Experience
 
 `2016-`
-__OP5 AB, Gothenburg__ Senior Software Engineer/Architect
-
-See currently.
+__OP5 AB, Gothenburg__ Software Engineer
+- Development of OP5 Monitor which consists of many open- and closed source components written in several different languages, the majority of them in C, PHP and Python.
+- Unit testing using pytest (and similar) and integration tests written in Gherkin and executed using behave/cucumber with quite some docker usage.
+- Source control, review and continuous integration using in git, Bitbucket and Buildbot/GoCD.
+- Working agile using Scrum and and Jira to manage our backlog, user stories and sprints.
 
 `2015-2016`
 __Stormshield, Lyon__ Software Engineer
-
-Design and implementation of a malware detection service consisting of a REST API using Python and Flask. Particularly worked on a virus scanning service that used Kaspersky's SDK and C++. Source control, reviewing and continuous integration in git, Gitlab and Jenkins. Service deployment and monitoring using Ansible and Nagios. 
+- Development of a malware detection service consisting of a REST API using Python and Flask.
+- Implementation of a virus scanning component using Kaspersky's SDK and C++.
+- Source control, review and continuous integration in git, Gitlab and Jenkins.
+- Service deployment and monitoring using Ansible and Nagios.
 
 `2013-2015`
 __T. Vestelind Consulting AB, Gothenburg__ Software Engineer working for Ericsson AB
-
-Design and implemention of a packet forwarding engine in C on Linux with the majority of the work on Ethernet and IP headers. Source control in git. Part time role of scrum master in a team of five.
+- Development of a packet forwarding engine in C on Linux.
 
 `2012-2013`
 __Rt-labs AB, Gothenburg__ Software Engineer working for AB Volvo
-
-Implementation and porting of a J1939 stack and Ethernet driver to rt-kernel, Rt-labs' own OS. Bug solving and implementation of sensors in Volvo Truck's engine control platform. Source control in Serena Dimensions and a bit in git.
+- Bug fixing and implementation of sensors in Volvo Truck's engine control platform.
 
 `2011-2012`
 __Dfind AB, Gothenburg__ Software Tester working for Ericsson AB
-
-Design and implementation of automated functional tests in Erlang for IPSec. Source control in ClearCase.
+- Automation of functional tests in Erlang for IPSec.
 
 `2010-2011`
 __Amadeus, Nice__ Master's Thesis
-
-Research and analyzes of cross platform frameworks for smartphone app development. Evaluation of possibility to get good platform coverage using only Java. Proof of concept for iOS native app using XMLVM and Java.
+- Research and analyzes of cross platform frameworks for smartphone app development.
 
 ## Education
 
 `2008-2011`
-__Chalmers University of Technology, Gothenburg__ Master of Sciences, Software Engineering and Technology
+__M.Sc. in Software Engineering, Chalmers University of Technology__
 
 `2008-2009`
-__Institut National des Sciences Appliquées (INSA), Lyon__ Exchange Studies
+__Exchange Studies, Institut National des Sciences Appliquées (INSA)__
 
 `2005-2008`
-__Chalmers University of Technology, Gothenburg__ Bachelor of Applied Sciences, Information Technology
+__B.Sc. in Information Technology, Chalmers University of Technology__
 
 ## Technical skills
+`Strong` Python, C, *nix, git, systemd, RPM
 
-* Python  - tox, behave, pytest, prospector, setuptools
-* C       - GNU Make, CMake, gcc, gdb
-* Haskell - cabal, stack, quickcheck, hspec
-* Erlang  - dialyzer, OTP
-* PHP     - phpunit
-* \*nix   - CentOS/Debian/NixOS, bash/zsh, git, docker, systemd, vim
+`Knowledgeable` Haskell, Erlang, PHP, Java, NixOS, docker
+
+## Other skills
+`Languages` Swedish (fluent), English (fluent), French (fluent)
 
 <!-- ### Footer
 
