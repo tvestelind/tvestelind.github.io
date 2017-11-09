@@ -67,12 +67,12 @@ __Chalmers University of Technology, Gothenburg__ Bachelor of Applied Sciences, 
 
 ## Technical skills
 
-* Python - tox, behave, pytest, prospector, setuptools
-* C - GNU Make, CMake, gcc, gdb
+* Python  - tox, behave, pytest, prospector, setuptools
+* C       - GNU Make, CMake, gcc, gdb
 * Haskell - cabal, stack, quickcheck, hspec
-* Erlang - dialyzer, OTP
-* PHP - phpunit
-* \*nix - CentOS/RHEL/Debian, bash/zsh, git, docker/docker-compose, systemd/sysvinit, vim
+* Erlang  - dialyzer, OTP
+* PHP     - phpunit
+* \*nix   - CentOS/Debian/NixOS, bash/zsh, git, docker, systemd, vim
 
 <!-- ### Footer
 
