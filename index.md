@@ -10,9 +10,9 @@ Software Engineer
 |
   <i class="fa fa-key"></i> <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0x7427A7AD49843859">0x49843859</a>
 |
-  <i class="fa fa-github"></i> <a href="http://github.com/tvestelind">Github</a>
+  <i class="fa fa-github"></i> <a href="http://github.com/tvestelind">tvestelind</a>
 |
-  <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/tomas-vestelind-790b1b57/">LinkedIn</a>
+  <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/tomas-vestelind">tomas-vestelind</a>
 </div>
 
 
