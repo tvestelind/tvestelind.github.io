@@ -7,6 +7,7 @@ Software Engineer
 
 <div id="webaddress">
   <i class="fa fa-envelope"></i><a href="mailto:tomas.vestelind@gmail.com">tomas.vestelind@gmail.com</a>
+  <i class="fa fa-key"></i><a href="https://pgp.mit.edu/pks/lookup?op=get&search=0x7427A7AD49843859">0x49843859</a>
 |
   <i class="fa fa-github"></i><a href="http://github.com/tvestelind">Github</a>
 |
