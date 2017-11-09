@@ -1,6 +1,5 @@
 ---
 layout: cv
-title: Tomas Vestelind's resume
 ---
 # Tomas Vestelind
 Software Engineer
