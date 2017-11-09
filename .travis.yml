@@ -6,7 +6,7 @@ addons:
       - texlive-fonts-recommended
       - texlive-latex-base
       - xvfb
-script: pandoc index.md --css https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css -to html | xvfb-run -a -s "-screen 0 640x480x16" wkhtmltopdf - tomas.vestelind.resume.pdf
+script: pandoc index.md --css https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css --to html | xvfb-run -a -s "-screen 0 640x480x16" wkhtmltopdf - tomas.vestelind.resume.pdf
 
 deploy:
   provider: releases
