@@ -3,8 +3,8 @@ addons:
     packages:
       - wkhtmltopdf
       - pandoc
-      - textlive-fonts-recommended
-      - textlive-latex-base
+      - texlive-fonts-recommended
+      - texlive-latex-base
 script: pandoc index.md --css https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css -to html | wkhtmltopdf - tomas.vestelind.resume.pdf
 
 deploy:
