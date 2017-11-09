@@ -18,13 +18,15 @@ Software Engineer
 
 `2016-`
 __OP5 AB, Gothenburg__ Software Engineer
-- Development of OP5 Monitor which consists of many open- and closed source components written in several different languages, the majority of them in C, PHP and Python.
+
+- Development of OP5 Monitor, an application consisting of many open- and closed source components written in several different languages, the majority of them in C, PHP and Python.
 - Unit testing using pytest (and similar) and integration tests written in Gherkin and executed using behave/cucumber with quite some docker usage.
 - Source control, review and continuous integration using in git, Bitbucket and Buildbot/GoCD.
 - Working agile using Scrum and and Jira to manage our backlog, user stories and sprints.
 
 `2015-2016`
 __Stormshield, Lyon__ Software Engineer
+
 - Development of a malware detection service consisting of a REST API using Python and Flask.
 - Implementation of a virus scanning component using Kaspersky's SDK and C++.
 - Source control, review and continuous integration in git, Gitlab and Jenkins.
@@ -32,18 +34,22 @@ __Stormshield, Lyon__ Software Engineer
 
 `2013-2015`
 __T. Vestelind Consulting AB, Gothenburg__ Software Engineer working for Ericsson AB
+
 - Development of a packet forwarding engine in C on Linux.
 
 `2012-2013`
 __Rt-labs AB, Gothenburg__ Software Engineer working for AB Volvo
+
 - Bug fixing and implementation of sensors in Volvo Truck's engine control platform.
 
 `2011-2012`
 __Dfind AB, Gothenburg__ Software Tester working for Ericsson AB
+
 - Automation of functional tests in Erlang for IPSec.
 
 `2010-2011`
 __Amadeus, Nice__ Master's Thesis
+
 - Research and analyzes of cross platform frameworks for smartphone app development.
 
 ## Education
