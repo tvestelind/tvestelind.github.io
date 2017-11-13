@@ -65,12 +65,13 @@ __Exchange Studies, Institut National des Sciences Appliquées (INSA)__
 __B.Sc. in Information Technology, Chalmers University of Technology__
 
 ## Technical skills
-`Strong` Python, C, *nix, git, systemd, RPM
 
-`Knowledgeable` Haskell, Erlang, PHP, Java, NixOS, docker
+`Strong` C, git, *nix, Python, rpm, systemd
+
+`Knowledgeable` C++, deb, docker, Erlang, Haskell, Java, NixOS, PHP
 
 ## Other skills
-`Languages` Swedish (fluent), English (fluent), French (fluent)
+`Languages` English (fluent), French (fluent), Swedish (fluent)
 
 <!-- ### Footer
 
