@@ -17,9 +17,10 @@ Software Engineer
 ## Experience
 
 `2016-`
-__OP5 AB, Gothenburg__ Software Engineer
+__OP5 AB, Gothenburg__ Software Architect
 
 - Development of OP5 Monitor, an application consisting of many open- and closed source components written in several different languages, the majority of them in C, PHP and Python.
+- Organization and restructuring of the current, monolithic architecture towards a microservice architecture.
 - Unit testing using pytest (and similar) and integration tests written in Gherkin and executed using behave/cucumber with quite some docker usage.
 - Source control, review and continuous integration using in git, Bitbucket and Buildbot/GoCD.
 - Working agile using Scrum and and Jira to manage our backlog, user stories and sprints.
