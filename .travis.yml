@@ -1,20 +1,23 @@
 addons:
   apt:
     packages:
-      - wkhtmltopdf
-      - pandoc
-      - texlive-fonts-recommended
-      - texlive-latex-base
-      - xvfb
-script: pandoc index.md --css https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css --to html | xvfb-run -a -s "-screen 0 640x480x16" wkhtmltopdf - tomas.vestelind.resume.pdf
-
+    - wkhtmltopdf
+    - pandoc
+    - texlive-fonts-recommended
+    - texlive-latex-base
+    - xvfb
+script: pandoc index.md --css https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css
+  --to html | xvfb-run -a -s "-screen 0 640x480x16" wkhtmltopdf - tomas.vestelind.resume.pdf
 deploy:
   provider: releases
-  api_key:
-    secure: lRsH4bBNERUyGp2GpRwBMhsIiddrOiIQt67BBnu32djfJpXJ5t9sBLPyzjGOEdXLZI9UoV1C9qRwP7ysoz/Jl54TX9DS7ThsBUz5CwzcJEJWelC3gsQ4ws5QTf4lOyKGXhlAOzul3sz2Im5ZUU86oU3hyOBeZZYG1ABvWVv9cHspDQKilTvRmjcNPfV0f8m2RSwYXwARe151EVSOzSuZABlXMUJ5FJnDcbO1TG98PdSa+ctqj+Y5czewLN3QrnE+rbKfKqrNvJ1bkk8JJgyEajJLZ9DE53e080GwWqkhQV5lR79LtZOC/Ud1dDQ1K0upacYMHCb+a3CElyXeL80iWT8mM/Lx//+4fg5iypNLSH3gsQezaiRNjDF6w/FBqRD5e2xn9scSXSr594Oi5JwPnPYbfGEXKHxxcf2HvhUwgRxlPI9ATI43pLpqnKJ94ybx0QREKSG/SiWUPWEALpwIYBDUH7udfYVwnoxXu5yXL5FpWvA3mQDvbA05OG7vbvGr/z1mxJsGkOhQlpJd5bhqSmL0JhpAo5FWiXwkm/p1Yz83X2dbOQzXnr/B9gTNrcIvGjPReeXI4Jys8A1RXJb5gryx70oIkNhNHPS6t4WNMwQyUHJKb0Zyp7RWmCt9HQ5h7v7l3f/HB97yEMbX/9+QTVSbhzYd5xET0ywa2Au3uaI=
   file_glob: true
   file: tomas.vestelind.resume.pdf
   skip_cleanup: true
   on:
     repo: tvestelind/tvestelind.github.io
     tags: true
+  api_key:
+    secure: caJmj8/LG+9X0tZg/ZqvamIkcpzrZ/CJGxbwWvSfKTsXwqaOpKeMiTxNFInVBssO5bF7BSEMxcnLV2JMrwPeYajC0yAQUhisscGArLbP4oIWDAII0z5p2zzGLnAPjOHA7aoOhykVTbPUAEZYO6khbsTGOt3h06SBVhNui6XVBqJKVD0Y8Z8SFGJ6C98kDdm53UYrdy/zHm/gjV55MdGF/LfRytCmq0befp+Gv1NySR99VcJSMxznKxgxROzFDABx7wyLdTcCEEaqImMEVCj7nyYXIhRwnRG0wogKniyqpCabLVc9+/ndjkaGBDfXpheS6XHjSkqzctadG3uk8k+tX31eGTOmFOrmB+8ULosjfkiwu9E34uH3Bi6JHEYE2M87qsghssh29qUyst5W8WhIWaez0vLIcjFGT64pdnRV3a329Z8mvVhpbr2DTdEmDEsfPR8dVcT0GpASzX1EwR4CaS9KvAdz0HFhNulDDUR/LesmwfFSkflkYlNDqKBh1d4MW31O9CRpUJISjkKXOcxypnL748hGP6teLFGY6HURu2uKQQPzn9zAmG9YafS/0ms1Rb5VGwKM7p/SIJTqXpYQ4XlRjGK7EyeuSsfNC3Jxnufe9CU6QVJU36gu9yGcOA7w1jNBgARkvJwqhPcFTyg+8JQAvGjy1ABIpFFvpTgtYOU=
+env:
+  global:
+    secure: KFDHZwGxgltV+4gD8R1Gb6Lc3t0BtmeH4Zfl42lqj2QP94AOEMRh3nrFhH7zzMXkXbkGaGceb2gdzfcw1xSWv3/lu3zdqnBTgfoPQPEHCjmB+yI2F8i19FBiimKrKeZKPN8srgB44ZOH3oj9uwMiQrmH8KUGg9GnltVJRgVBa8X6pwf26LAZ8qdQwJv6/V+ysHnO6CdLwQPFSfHmBYpTpDzzDJGU+u/mx8UgYHPS2Lc/OjNF69wdJIumSLr9I9fUY9A8LPaS3pfcgb3CGFB9mUVKOgX33HMFm7z9GyQOFogg3agr6/2h7QUz2MA365jL3rrYj1QX9EDwTC3LhrqUuYZVsM+e2UPailHW9wMe2kS9UJUx6TZjCYZBqp9aAqKtOEV/jjXfBOhwL5GXXU/6f3ZDocZoMRmz4S1J4CPW4s/mwphjLQRlD71LS2hxZ95LGx2pYwkmsuOljkU01Vg+RHrZIlxqMI8+IUOYzTihgXCgSHZnO48HFiTuJXKLj/3vVjIcQOWcuMpxTKd+1jllw3wh+fzKlz+PZW9zBjHn/8sy8qJyzLPQe8O1rtu+HLhmHPIo/2YDSUvnE18g8pH36/q5XfxX08Zfai7VVLMxAErzZhG2GeOOTyuz02tm+4gTdf3n3DpjhAA7XulfvmWDqmCK26hDZeKQ9jDrYzJ+v4g=
