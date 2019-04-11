@@ -16,13 +16,21 @@ Software Engineer
 
 ## Experience
 
-`2016-`
+`2018-`
+__Kaustik AB, Gothenburg__ Software Architect
+
+- Development of Aiai, an application for the care assistants business. The application is written in PHP and the major frameworks that are used are Symfony and Doctrine.
+- Unit testing using phpunit and integration tests written in Gherkin and executed using behat with some docker usage.
+- Source control, review and continuous integration using git, GitHub, Travis and Scrutinizer.
+- Working agile using Scrum and and Jira to manage our backlog, user stories and sprints.
+
+`2016-2018`
 __OP5 AB, Gothenburg__ Software Architect
 
 - Development of OP5 Monitor, an application consisting of many open- and closed source components written in several different languages, the majority of them in C, PHP and Python.
 - Organization and restructuring of the current, monolithic architecture towards a microservice architecture.
 - Unit testing using pytest (and similar) and integration tests written in Gherkin and executed using behave/cucumber with quite some docker usage.
-- Source control, review and continuous integration using in git, Bitbucket and Buildbot/GoCD.
+- Source control, review and continuous integration using git, Bitbucket and Buildbot/GoCD.
 - Working agile using Scrum and and Jira to manage our backlog, user stories and sprints.
 
 `2015-2016`
