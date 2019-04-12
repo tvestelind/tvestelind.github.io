@@ -5,13 +5,13 @@ layout: cv
 Software Engineer
 
 <div id="webaddress">
-  <i class="fa fa-envelope"></i> <a href="mailto:tomas.vestelind@gmail.com">tomas.vestelind@gmail.com</a>
+  <i class="fas fa-envelope-square"></i> <a href="mailto:tomas.vestelind@gmail.com">tomas.vestelind@gmail.com</a>
 |
-  <i class="fa fa-key"></i> <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0x7427A7AD49843859">0x49843859</a>
+  <i class="fas fa-id-card"></i> <a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0x7427A7AD49843859">0x49843859</a>
 |
-  <i class="fa fa-github"></i> <a href="http://github.com/tvestelind">tvestelind</a>
+  <i class="fab fa-github-square"></i> <a href="http://github.com/tvestelind">tvestelind</a>
 |
-  <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/tomas-vestelind">tomas-vestelind</a>
+  <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/tomas-vestelind">tomas-vestelind</a>
 </div>
 
 ## Experience
@@ -59,8 +59,6 @@ __Dfind AB, Gothenburg__ Software Tester working for Ericsson AB
 `2010-2011`
 __Amadeus, Nice__ Master's Thesis
 
-- Research and analyzes of cross platform frameworks for smartphone app development.
-
 ## Education
 
 `2008-2011`
@@ -74,15 +72,11 @@ __B.Sc. in Information Technology, Chalmers University of Technology__
 
 ## Technical skills
 
-`Strong` C, git, *nix, Python, rpm, systemd
+__Strong__ C, Python, PHP, git, *nix, rpm, systemd, docker
 
-`Knowledgeable` C++, deb, docker, Erlang, Haskell, Java, NixOS, PHP
+__Knowledgeable__ C++, Erlang, Haskell, Java, deb
 
 ## Other skills
-`Languages` English (fluent), French (fluent), Swedish (fluent)
+__Languages__ English (fluent), French (fluent), Swedish (fluent)
 
-<!-- ### Footer
-
-Last updated: November 2017 -->
-
-
+<!-- ### Footer Last updated: April 2019 -->
