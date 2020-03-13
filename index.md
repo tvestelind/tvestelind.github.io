@@ -19,7 +19,7 @@ Software Engineer
 `2018-`
 __Kaustik AB, Gothenburg__ Software Architect
 
-- Development of Aiai, an application for the care assistants business. The application is written in PHP and the major frameworks that are used are Symfony and Doctrine.
+- Development of Aiai, an application for the care assistants business. The application is written in PHP and the major frameworks that are used are Symfony and Doctrine. Other technologies that are used are MySQL, MongoDB and Redis. 
 - Unit testing using phpunit and integration tests written in Gherkin and executed using behat with some docker usage.
 - Source control, review and continuous integration using git, GitHub, Travis and Scrutinizer.
 - Working agile using Scrum and and Jira to manage our backlog, user stories and sprints.
