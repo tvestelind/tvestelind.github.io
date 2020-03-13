@@ -74,9 +74,9 @@ __B.Sc. in Information Technology, Chalmers University of Technology__
 
 __Strong__ C, Python, PHP, git, *nix, rpm, systemd, docker
 
-__Knowledgeable__ C++, Erlang, Haskell, Java, deb
+__Knowledgeable__ Erlang, Haskell, Java, deb
 
 ## Other skills
-__Languages__ English (fluent), French (fluent), Swedish (fluent)
+__Languages__ English (fluent), French (advanced), Swedish (fluent)
 
 <!-- ### Footer Last updated: April 2019 -->
