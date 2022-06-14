@@ -5,13 +5,13 @@ layout: cv
 Software Engineer
 
 <div id="webaddress">
-  <i class="fas fa-envelope-square"></i> <a href="mailto:tomas.vestelind@gmail.com">tomas.vestelind@gmail.com</a>
+  <i class="fa-solid fa-envelope"></i> <a href="mailto:tomas.vestelind@gmail.com">tomas.vestelind@gmail.com</a>
 |
-  <i class="fas fa-id-card"></i> <a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0x7427A7AD49843859">0x49843859</a>
+  <i class="fa-solid fa-key"></i> <a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0x7427A7AD49843859">0x49843859</a>
 |
-  <i class="fab fa-github-square"></i> <a href="http://github.com/tvestelind">tvestelind</a>
+  <i class="fa-brands fa-github"></i> <a href="http://github.com/tvestelind">tvestelind</a>
 |
-  <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/tomas-vestelind">tomas-vestelind</a>
+  <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/tomas-vestelind">tomas-vestelind</a>
 </div>
 
 ## Experience
