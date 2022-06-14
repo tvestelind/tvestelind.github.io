@@ -6,8 +6,7 @@ addons:
     - texlive-fonts-recommended
     - texlive-latex-base
     - xvfb
-script: pandoc index.md --css https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css
-  --to html | xvfb-run -a -s "-screen 0 640x480x16" wkhtmltopdf - tomas.vestelind.resume.pdf
+script: pandoc index.md --css fontawesome-free-6.1.1-web/css/all.css --to html5 -o tomas.vestelind.resume.pdf
 deploy:
   provider: releases
   file_glob: true
