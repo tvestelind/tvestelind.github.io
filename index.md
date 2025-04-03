@@ -11,15 +11,24 @@ Software Engineer
 |
   <i class="fa-brands fa-github"></i> <a href="http://github.com/tvestelind">tvestelind</a>
 |
-  <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/tomas-vestelind">tomas-vestelind</a>
+  <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/tvestelind">tvestelind</a>
 </div>
 
 ## Experience
 
-`2018-`
+`2023-`
+__Planima AB, Gothenburg__ Software Engineer
+
+- Development of a maintenance planning application for real estate owners.
+- The application is written with Ruby on Rails using Redis and PostgreSQL. The front end is mostly server rendered pages with some Javascript, React and Hotwire.
+- Most of the testing is done using Rspec but we also use Cypress for end-to-end tests.
+- Source control, review and continuous integration using git, GitHub, CircleCI and Heroku.
+- Application monitoring using Datadog and Sentry.
+
+`2018-2023`
 __Kaustik AB, Gothenburg__ Software Architect
 
-- Development of Aiai, an application for the care assistants business. The application is written in PHP and the major frameworks that are used are Symfony and Doctrine. Other technologies that are used are MySQL, MongoDB and Redis. 
+- Development of Aiai, an application for the care assistants business. The application is written in PHP and the major frameworks that are used are Symfony and Doctrine. Other technologies that are used are MySQL, MongoDB and Redis.
 - Unit testing using phpunit and integration tests written in Gherkin and executed using behat with some docker usage.
 - Source control, review and continuous integration using git, GitHub, Travis and Scrutinizer.
 - Working agile using Scrum and and Jira to manage our backlog, user stories and sprints.
@@ -72,11 +81,11 @@ __B.Sc. in Information Technology, Chalmers University of Technology__
 
 ## Technical skills
 
-__Strong__ C, Python, PHP, git, *nix, rpm, systemd, docker
+__Strong__ C, Python, PHP, Ruby, git, Linux, systemd, docker
 
-__Knowledgeable__ Erlang, Haskell, Java, deb
+__Knowledgeable__ Erlang, Haskell, Java, deb, rpm, PostgreSQL, Javascript
 
 ## Other skills
 __Languages__ English (fluent), French (advanced), Swedish (fluent)
 
-<!-- ### Footer Last updated: April 2019 -->
+<!-- ### Footer Last updated: April 2025 -->
