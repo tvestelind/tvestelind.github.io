@@ -1,6 +1,3 @@
----
-layout: cv
----
 # Tomas Vestelind
 Software Engineer
 
