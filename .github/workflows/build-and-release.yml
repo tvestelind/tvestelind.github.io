@@ -1,0 +1,38 @@
+name: Build and Release PDF
+
+on:
+  push:
+    tags:
+      - '*'  # Trigger on any tag
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            wkhtmltopdf \
+            pandoc \
+            texlive-fonts-recommended \
+            texlive-latex-base \
+            xvfb
+
+      - name: Generate PDF
+        run: |
+          pandoc README.md \
+            --css fontawesome-free-6.1.1-web/css/all.css \
+            --to html5 \
+            -o tomas.vestelind.resume.pdf
+
+      - name: Upload to GitHub Releases
+        uses: softprops/action-gh-release@v1
+        with:
+          files: tomas.vestelind.resume.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
